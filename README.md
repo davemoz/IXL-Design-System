@@ -4,8 +4,7 @@ This repo contains a first version of the IXL Design System.
 
 ## Figma Api
 
-The system includes two different [incomplete] implementations of the Figma REST API to render project 
-text and images into the Design System pages. 
+The system includes two different [incomplete] implementations of the Figma REST API to [render project text nodes](https://www.figma.com/developers/docs#text-props) and [images](https://www.figma.com/developers/docs#images-endpoint) into the Design System pages.
 
 ### Set up
 
