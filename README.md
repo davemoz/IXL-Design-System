@@ -5,10 +5,14 @@ This repo contains a first version of the IXL Design System.
 ## Figma Api
 
 The system includes two different [incomplete] implementations of the Figma REST API to render project 
-text and images into the Design System pages.
+text and images into the Design System pages. 
 
+### Set up
 
-vvvvvvv - via Figma docs
+1. Update `MY_FIGMA_TOKEN` in `scripts.js` and 'figma.ts'
+2. Open `index.html` in a web browser.
+
+_vvvvvvv - via Figma docs_
 
 ### API Usage
 
@@ -19,11 +23,4 @@ rendered image.
 
 We render an image of a specific frame and use `perspective.js` to project that rendered
 frame into several different mock ups. You could imagine using this to demo the design
-for an app you are working on in Figma. 
-
----------
-
-### Set up
-
-1. Update `MY_FIGMA_TOKEN` in `scripts.js` and 'figma.ts'
-2. Open `index.html` in a web browser.
+for an app you are working on in Figma.
