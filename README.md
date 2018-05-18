@@ -8,7 +8,7 @@ The system includes two different [incomplete] implementations of the Figma REST
 text and images into the Design System pages.
 
 
--------- via Figma docs
+vvvvvvv - via Figma docs
 
 ### API Usage
 
@@ -25,5 +25,5 @@ for an app you are working on in Figma.
 
 ### Set up
 
-1. Update `PERSONAL_ACCESS_TOKEN` in `scripts.js` and 'figma.ts'
+1. Update `MY_FIGMA_TOKEN` in `scripts.js` and 'figma.ts'
 2. Open `index.html` in a web browser.
