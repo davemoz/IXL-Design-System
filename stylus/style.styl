@@ -1,0 +1,68 @@
+@import 'nib'
+
+global-reset()
+reset-html5()
+
+@import 'typography'
+@import 'structure'
+@import 'nav'
+@import 'content'
+
+
+.row {
+    position: relative;
+    margin: 20px auto;
+    width: 1024px;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1024px;
+}
+
+#progress {
+    border-bottom: 1px solid black;
+    visibility: hidden;
+}
+
+#progress_inner {
+    background-color: black;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    color: white;
+    font-family: Apercu;
+    font-size: 14px;
+    width: 60px;
+    text-align: left;
+    padding: 3px 20px 5px;
+}
+
+img,
+canvas {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.base_image {
+    position: relative;
+}
+
+.template {
+    width: 1024px;
+    height: auto;
+}
+
+.reflection {
+    top: 17.97%;
+    left: 28.2%;
+    width: 27.2%;
+    height: auto;
+    position: absolute;
+}
+
+#row3 {
+    margin-bottom: 100px;
+}

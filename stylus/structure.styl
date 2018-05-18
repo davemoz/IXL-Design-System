@@ -1,0 +1,58 @@
+#sidebar
+    background #005270
+    position fixed
+    top 0
+    left 0
+    bottom 0
+    width 240px
+    overflow auto
+    -webkit-overflow-scrolling touch
+
+#branding
+    padding 15px 20px
+    border-bottom 1px solid rgba(255,255,255, 0.1)
+
+#search
+    padding 15px 20px
+    input[type=text]
+        width calc(100% - 1.5rem)
+        padding .75rem
+        border none
+        border-radius 5px
+        background #00455d
+        color #2f98be
+        font-size 16px
+        ::-webkit-input-placeholder /* Chrome/Opera/Safari */
+            color pink
+        ::-moz-placeholder /* Firefox 19+ */
+            color pink
+        :-ms-input-placeholder /* IE 10+ */
+            color pink
+        :-moz-placeholder /* Firefox 18- */
+            color pink
+
+#nav
+    padding 15px 20px
+
+#header
+    background #d2f3ff
+
+#content-wrap
+    margin 0
+    padding-left 240px
+    display flex
+    flex-direction column
+    min-height 100vh
+
+#content
+    background #ffffff
+    max-width 100%
+    padding 0
+    display block
+    flex 1 0 auto
+
+.inner-wrap
+    padding 50px 64px
+
+#footer
+    background #003448
