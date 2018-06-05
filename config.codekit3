@@ -18,11 +18,11 @@
 		},
 	"\/config.js": {
 		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "\/config-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -153,6 +153,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/styleguides\/maps\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/styleguides\/maps\/index.html",
+		"oF": 0
 		},
 	"\/stylus\/content.styl": {
 		"aP": 1,
