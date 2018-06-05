@@ -15,11 +15,9 @@ _vvvvvvv - via Figma docs_
 
 ### API Usage
 
-We use 1 endpoint in this project:
+We use 2 endpoints in this project:
 
-- `GET /v1/images/:file_key` - Render a frame from a specific Figma document and return a url to 
+* `GET /v1/images/:file_key` - Render a frame from a specific Figma document and return a url to 
 rendered image.
 
-We render an image of a specific frame and use `perspective.js` to project that rendered
-frame into several different mock ups. You could imagine using this to demo the design
-for an app you are working on in Figma.
+* 'GET /v1/projects/:project_id/files' - Retrieve file from specific project, along with its nodes.
