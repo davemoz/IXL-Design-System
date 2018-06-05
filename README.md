@@ -20,4 +20,4 @@ We use 2 endpoints in this project:
 * `GET /v1/images/:file_key` - Render a frame from a specific Figma document and return a url to 
 rendered image.
 
-* 'GET /v1/projects/:project_id/files' - Retrieve file from specific project, along with its nodes.
+* `GET /v1/projects/:project_id/files` - Retrieve file from specific project, along with its nodes.
